@@ -15,7 +15,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/shivshankar66/terracicd1122.git'
+                git branch: 'main', url: 'https://github.com/shivshankar66/newrepo-.git'
             }
         }
 
